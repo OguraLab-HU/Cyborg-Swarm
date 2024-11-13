@@ -21,6 +21,6 @@ This MATLAB program simulates a swarm of 20 cyborgs (1 leader and 19 followers) 
 
 ## Requirements
 
-- MATLAB
-- `VideoWriter` support for video output
+1. MATLAB
+2. `VideoWriter` support for video output
 
