@@ -1,18 +1,26 @@
-This program simulates a leader-follower swarm control system involving 20 cyborgs. It features one leader and 19 followers navigating to a predefined goal.
+# Cyborg Swarm Control Simulation
 
-Program Overview
+This MATLAB program simulates a swarm of 20 cyborgs (1 leader and 19 followers) moving toward a goal. The simulation generates an animation (`animation.mp4`) showing the swarm's behavior over time.
 
-Leader Control: The leader continuously moves towards the goal, guiding the followers.
-Follower Control: Follower movement is determined by the TGI control algorithm and random motion.
+## Program Overview
 
-Features
+1. **Leader Movement**:
+   - Continuously moves towards the goal, guiding followers.
 
-Swarm Initialization: Randomly position 19 followers with the leader starting near the center.
-Leader Control: The leader continuously moves towards the goal, guiding the followers.
-Follower Control: Follower movement is determined by the TGI control algorithm and random motion.
-Animation Output: Generates a video (animation.mp4) to visualize swarm behavior.
+2. **Follower Control**:
+   - Alternates between stimulated and random motion based on the number of nearby agents.
 
-Requirements
+3. **Output**:
+   - Generates an animation (`animation.mp4`) showing follower (blue) and leader (red) positions over time.
 
-MATLAB for running the script.
-VideoWriter support for video output.
+## Running the Simulation
+
+1. Copy the code into a `.m` file.
+2. Run the file in MATLAB.
+3. The video `animation.mp4` will be saved in the working directory.
+
+## Requirements
+
+- MATLAB
+- `VideoWriter` support for video output
+
