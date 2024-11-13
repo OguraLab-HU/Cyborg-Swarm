@@ -8,16 +8,15 @@ This MATLAB program simulates a swarm of 20 cyborgs (1 leader and 19 followers) 
    - Continuously moves towards the goal, guiding followers.
 
 2. **Follower Control**:
-   - Alternates between stimulated and random motion based on the number of nearby agents.
+   - Alternates between stimulated and random motions based on the density of nearby agents.
 
 3. **Output**:
    - Generates an animation (`animation.mp4`) showing follower (blue) and leader (red) positions over time.
 
 ## Running the Simulation
 
-1. Copy the code into a `.m` file.
-2. Run the file in MATLAB.
-3. The video `animation.mp4` will be saved in the working directory.
+1. Run the `TGI.m` file in MATLAB.
+2. The video `animation.mp4` will be saved in the working directory.
 
 ## Requirements
 
